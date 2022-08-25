@@ -230,6 +230,10 @@ jobs:
             suffix: ""
             target: x86_64-apple-darwin
             install: echo nothing to install
+          - os: macos-latest
+            suffix: ""
+            target: aarch64-apple-darwin
+            install: echo nothing to install
           - os: ubuntu-latest
             suffix: ""
             target: x86_64-unknown-linux-gnu
